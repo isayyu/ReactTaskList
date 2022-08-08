@@ -151,7 +151,6 @@ export const TaskTable: React.FC<IProps> = ({ taskList }: IProps) => {
                             </div>
                         );
                     }}
-                    width={150}
                 />
                 <Column
                     title=""
@@ -179,7 +178,6 @@ export const TaskTable: React.FC<IProps> = ({ taskList }: IProps) => {
                             </div>
                         </Space>
                     )}
-                    width={100}
                 />
             </Table>
         </>

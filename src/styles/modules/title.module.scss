@@ -1,0 +1,11 @@
+@import '../mixins';
+.title {
+	display: inline-block;
+	font-family: 'Poppins';
+	font-size: 2rem;
+	font-weight: 500;
+	margin: 0;
+	@include smallDeviceSize {
+		font-size: 3rem;
+	}
+}

@@ -126,18 +126,6 @@
 		opacity: 0.5;
 	}
 	@media screen and (max-width: 600px) {
-		.ant-table-thead > tr > th:nth-child(1) {
-			width: 80%;
-		}
-		.ant-table-tbody > tr > td:nth-child(1) {
-			width: 80%;
-		}
-		.ant-table-thead > tr > th:nth-child(4) {
-			width: 20%;
-		}
-		.ant-table-tbody > tr > td:nth-child(4) {
-			width: 20%;
-		}
 		.ant-table-thead {
 			background: var(--bg-1) !important;
 		}
